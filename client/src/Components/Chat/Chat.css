@@ -7,6 +7,11 @@ body {
 }
 
 .container {
+  background-image: url('../../images/fondo5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   display: flex;
   flex-direction: column;
   font-family: Arial, sans-serif;
@@ -53,7 +58,7 @@ body {
   border-radius: 5px;
   display: inline-block;
   list-style: none;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
   padding: .5rem 1rem;
 }
 
